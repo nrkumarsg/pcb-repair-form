@@ -1,0 +1,16 @@
+{
+  // VS Code launch configuration — does not contain secrets.
+  // It reads environment variables from the workspace `.env.local` file.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Launch Server (dev)",
+      "program": "${workspaceFolder}/server.js",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env.local",
+      "console": "integratedTerminal"
+    }
+  ]
+}

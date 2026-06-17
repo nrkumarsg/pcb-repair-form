@@ -1,0 +1,6 @@
+{
+  "name": "PCB Repair Form Generator",
+  "description": "An interactive digital form for filling up, managing, and exporting official CEL-RON Enterprises PCB Repair Forms as PDFs with image attachments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
